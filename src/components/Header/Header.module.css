@@ -1,0 +1,32 @@
+.headerContainer {
+  width: 380px;
+  height: 400px;
+  padding: 0 20px;
+  position: relative;
+}
+.userImg {
+  width: 100%;
+  width: 380px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.nameContainer {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userName {
+  font-size: 2rem;
+}
+
+.userLink {
+  font-size: 1.5rem;
+}
