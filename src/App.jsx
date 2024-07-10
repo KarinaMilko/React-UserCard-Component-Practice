@@ -1,5 +1,4 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Article from "./components/Article";
 
 function App() {
   const userCard = { userName: "Emma Watson", userLink: "@EmWatson" };
@@ -11,10 +10,10 @@ function App() {
   ];
   return (
     <>
-      <Header user={userCard} />
-      <Footer userLinkFooter={linkFooter[0]} />
-      <Footer userLinkFooter={linkFooter[1]} />
-      <Footer userLinkFooter={linkFooter[2]} />
+      <Article user={userCard} />
+      <Article userLinkFooter={linkFooter[0]} />
+      <Article userLinkFooter={linkFooter[1]} />
+      <Article userLinkFooter={linkFooter[2]} />
     </>
   );
 }
