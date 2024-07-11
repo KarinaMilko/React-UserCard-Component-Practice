@@ -1,21 +1,17 @@
 .containerFooter {
-  padding: 20px;
-  margin-left: 20px;
-  display: inline-flex;
-  /* display: flex;
-  flex-direction: row; */
-
   background-color: lightgrey;
-  border: 2px solid black;
+  padding: 20px;
 }
 .linkFooterTitle {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 100%;
   gap: 10px;
-  padding: 10px;
+  flex-grow: 1;
 }
-.titleFooter {
-}
+
 .titlecounter {
+  font-size: 2rem;
 }

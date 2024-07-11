@@ -1,11 +1,7 @@
 .headerContainer {
-  width: 380px;
-  height: 400px;
-  padding: 0 20px;
   position: relative;
 }
 .userImg {
-  width: 100%;
   width: 380px;
   height: 400px;
   object-fit: cover;
@@ -16,9 +12,9 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   position: absolute;
-  top: 80%;
+  bottom: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -27,6 +23,11 @@
   font-size: 2rem;
 }
 
-.userLink {
-  font-size: 1.5rem;
+.btnHeard {
+  border: none;
+  background-color: inherit;
+  position: absolute;
+  left: 125%;
+  top: 100px;
+  font-size: 2rem;
 }
