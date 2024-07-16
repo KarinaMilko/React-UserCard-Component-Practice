@@ -1,9 +1,9 @@
 import { useState } from "react";
 import userPhoto from "./photo user.jpeg";
-import styles from "./Header.module.css";
+import styles from "./CardHeader.module.css";
 
-function Header(props) {
-  const [changeColor, setChangeColor] = useState();
+function CardHeader(props) {
+  const [changeColor, setChangeColor] = useState(false);
   const { user, isRender } = props;
   const nameStyle = {
     color: isRender ? "blue" : "red",
@@ -37,4 +37,4 @@ function Header(props) {
     </>
   );
 }
-export default Header;
+export default CardHeader;

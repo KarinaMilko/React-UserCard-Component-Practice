@@ -1,6 +1,5 @@
-import { useState } from "react";
 import styles from "./../src/App.module.css";
-import Header from "./components/Header";
+import CardHeader from "./components/CardHeader";
 import Footer from "./components/Footer";
 
 function App() {
@@ -24,8 +23,8 @@ function App() {
 
   return (
     <>
-      <div className={styles.pageContainerStyle}>
-        <Header isRender={isRenderMale} user={userCard} />
+      <article className={styles.pageContainerStyle}>
+        <CardHeader isRender={isRenderMale} user={userCard} />
         <div className={styles.footerContainer}>
           <button onClick={addCount} className={styles.btnCount}>
             <i class="fa-solid fa-plus"></i>
@@ -34,7 +33,7 @@ function App() {
           <Footer userLinkFooter={linkFooter[1]} />
           <Footer userLinkFooter={linkFooter[2]} />
         </div>
-      </div>
+      </article>
     </>
   );
 }
