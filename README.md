@@ -1,8 +1,37 @@
-# React + Vite
+# React User Card Component Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates a React component that displays user information, including:
 
-Currently, two official plugins are available:
+- User photo
+- Name and surname
+- Gender (used to style the name color)
+- Social stats (Tweets, Following, Followers)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- UserCard receives data via props
+- Inline styles change the user name color based on gender
+- `+` button increases the Followers count dynamically
+- Heart icon toggles color (grey ↔ red) on click
+- Card layout styled with CSS modules
+
+## Usage
+- Click the `+` button to increase Followers
+- Click the heart icon `❤️` to toggle its color
+- Data about the user can be changed by editing props in `App.jsx`
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/karinamilko/React-UserCard-Component-Practice.git
+
+2. Install dependencies:
+
+npm install
+
+3. Start development server:
+
+npm run dev
+
+
+
