@@ -28,7 +28,7 @@ function App() {
         <CardHeader isRender={isRenderMale} user={userCard} />
         <div className={styles.footerContainer}>
           <button onClick={addCount} className={styles.btnCount}>
-            <i class="fa-solid fa-plus"></i>
+            <i className="fa-solid fa-plus"></i>
           </button>
           <Footer userLinkFooter={linkFooter[0]} />
           <Footer userLinkFooter={linkFooter[1]} />

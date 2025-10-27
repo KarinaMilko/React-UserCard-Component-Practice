@@ -30,7 +30,7 @@ function CardHeader(props) {
             style={heart}
             className={styles.btnHeard}
           >
-            <i class="fa-solid fa-heart"></i>
+            <i className="fa-solid fa-heart"></i>
           </button>
         </div>
       </header>
